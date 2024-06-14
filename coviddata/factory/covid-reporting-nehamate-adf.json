@@ -1,0 +1,9 @@
+{
+	"name": "covid-reporting-nehamate-adf",
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "39e4e95f-feb9-4a7a-b30e-d9fb0f4c409e",
+		"tenantId": "a9549072-5339-41d6-8bd2-383c74ed69d2"
+	}
+}
