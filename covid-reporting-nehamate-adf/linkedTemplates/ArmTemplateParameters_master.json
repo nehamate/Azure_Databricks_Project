@@ -20,6 +20,12 @@
 		"tr_ingest_population_data_properties_typeProperties_scope": {
 			"value": "/subscriptions/9b822cb8-f950-4b85-b0b9-56783cd645a8/resourceGroups/covid-reporting-rg/providers/Microsoft.Storage/storageAccounts/covidreportingsaneha"
 		},
+		"tr_ingest_hospital_admission_data_schedule_properties_pl_ingest_ecdc_data_parameters_sourceRelativeURL": {
+			"value": "covid19/nationalcasedeath/csv"
+		},
+		"tr_ingest_hospital_admission_data_schedule_properties_pl_ingest_ecdc_data_parameters_sinkFileName": {
+			"value": "death1"
+		},
 		"containerUri": {
 			"value": ""
 		},
