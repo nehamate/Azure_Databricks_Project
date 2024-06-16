@@ -20,7 +20,7 @@
 			"recurrence": {
 				"frequency": "Day",
 				"interval": 1,
-				"startTime": "2024-06-16T18:10:00",
+				"startTime": "2024-06-16T17:59:00",
 				"timeZone": "India Standard Time",
 				"schedule": {
 					"minutes": [
