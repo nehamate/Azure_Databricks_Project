@@ -1,5 +1,5 @@
 {
-	"name": "tr_ingest_hospital_admission_data_schedule",
+	"name": "tr_ingest_ecdc_data_schedule",
 	"properties": {
 		"annotations": [],
 		"runtimeState": "Started",
@@ -8,10 +8,6 @@
 				"pipelineReference": {
 					"referenceName": "pl_ingest_ecdc_data",
 					"type": "PipelineReference"
-				},
-				"parameters": {
-					"sourceRelativeURL": "covid19/nationalcasedeath/csv",
-					"sinkFileName": "death1"
 				}
 			}
 		],
