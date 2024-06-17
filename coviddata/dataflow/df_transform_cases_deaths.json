@@ -1,0 +1,37 @@
+{
+	"name": "df_transform_cases_deaths",
+	"properties": {
+		"type": "MappingDataFlow",
+		"typeProperties": {
+			"sources": [
+				{
+					"dataset": {
+						"referenceName": "ds_raw_cases_deaths",
+						"type": "DatasetReference"
+					},
+					"name": "CaseAndDeathsSource"
+				}
+			],
+			"sinks": [],
+			"transformations": [],
+			"scriptLines": [
+				"source(output(",
+				"          country as string,",
+				"          country_code as string,",
+				"          continent as string,",
+				"          population as integer,",
+				"          indicator as string,",
+				"          weekly_count as string,",
+				"          year_week as string,",
+				"          rate_14_day as double,",
+				"          cumulative_count as string,",
+				"          source as string,",
+				"          note as string",
+				"     ),",
+				"     allowSchemaDrift: true,",
+				"     validateSchema: false,",
+				"     ignoreNoFilesFound: false) ~> CaseAndDeathsSource"
+			]
+		}
+	}
+}
