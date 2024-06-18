@@ -8,8 +8,14 @@
 		"ls_ablob_covidreportingsa_connectionString": {
 			"value": ""
 		},
+		"ls_adb_population_accessToken": {
+			"value": ""
+		},
 		"ls_adls_covidreportingdl_accountKey": {
 			"value": ""
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://covid-reporting-kv-neha.vault.azure.net/"
 		},
 		"ls_adls_covidreportingdl_properties_typeProperties_url": {
 			"value": "https://covidreportingdlsaneha.dfs.core.windows.net/"
